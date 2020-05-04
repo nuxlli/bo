@@ -1,0 +1,18 @@
+[package]
+name = "bo"
+version = "0.1.0"
+authors = ["Everton Ribeiro <nuxlli@gmail.com>"]
+edition = "2018"
+description = "Process text files with liquid templates"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3.14"
+exitfailure = "0.5.1"
+liquid = "0.20.0"
+
+[dev-dependencies]
+assert_cmd = "1.0.1"
+predicates = "1.0.4"
+tempfile = "3.1.0"
